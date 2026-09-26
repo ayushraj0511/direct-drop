@@ -1,0 +1,21 @@
+{
+  "name": "direct-drop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Direct Drop - modern peer-to-peer browser file transfer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node server.js",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "peer": "^1.0.2",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
